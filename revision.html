@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Révision HTML, CSS et Bootstrap</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            background-color: #3498db;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #16a085;
+        }
+        code {
+            background-color: #ecf0f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: "Courier New", monospace;
+        }
+        .note {
+            background-color: #f1c40f;
+            padding: 10px;
+            border-left: 5px solid #f39c12;
+            margin: 10px 0;
+        }
+        .exercice {
+            background-color: #e74c3c;
+            color: white;
+            padding: 10px;
+            border-left: 5px solid #c0392b;
+            margin: 10px 0;
+        }
+        .exam {
+            background-color: #2ecc71;
+            color: white;
+            padding: 10px;
+            border-left: 5px solid #27ae60;
+            margin: 10px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Révision HTML, CSS et Bootstrap</h1>
+
+    <h2>Jour 1 : HTML</h2>
+    <p><strong>Structure de base :</strong></p>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Titre&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Bonjour le monde !&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p><strong>Balises importantes :</strong></p>
+    <ul>
+        <li><code>&lt;h1&gt;</code> à <code>&lt;h6&gt;</code> : Titres</li>
+        <li><code>&lt;p&gt;</code> : Paragraphes</li>
+        <li><code>&lt;a href="#"&gt;</code> : Liens</li>
+        <li><code>&lt;img src="image.jpg" alt="description"&gt;</code> : Images</li>
+    </ul>
+    <div class="note">
+        <strong>Astuce :</strong> Utilise les balises sémantiques comme <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, et <code>&lt;footer&gt;</code> pour une meilleure structure.
+    </div>
+
+    <h2>Jour 2 : CSS</h2>
+    <p><strong>Sélecteurs :</strong></p>
+    <pre><code>p {
+    color: blue;
+    font-size: 16px;
+}</code></pre>
+    <p><strong>Flexbox :</strong></p>
+    <pre><code>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}</code></pre>
+    <div class="exercice">
+        <strong>Exercice :</strong> Crée une mise en page avec Flexbox.
+    </div>
+
+    <h2>Jour 3 : Bootstrap</h2>
+    <p><strong>Grille :</strong></p>
+    <pre><code>&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-md-6"&gt;Colonne 1&lt;/div&gt;
+        &lt;div class="col-md-6"&gt;Colonne 2&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+    <div class="note">
+        <strong>Astuce :</strong> Utilise <code>container-fluid</code> pour une largeur totale.
+    </div>
+
+    <h2>Jour 4 : Projet pratique</h2>
+    <p>Crée un site web simple en utilisant HTML, CSS et Bootstrap.</p>
+
+    <h2>Jour 5 : Révision générale</h2>
+    <p>Relis tes notes et teste-toi avec des exercices.</p>
+
+    <h2>Jour 6 : Examen</h2>
+    <div class="exam">
+        <h3>Examen pratique</h3>
+        <ol>
+            <li>Crée une page HTML avec un formulaire de contact.</li>
+            <li>Utilise CSS pour centrer un élément sur la page.</li>
+            <li>Crée une grille responsive avec Bootstrap.</li>
+            <li>Ajoute une navbar Bootstrap à ta page.</li>
+        </ol>
+    </div>
+
+</body>
+</html>
